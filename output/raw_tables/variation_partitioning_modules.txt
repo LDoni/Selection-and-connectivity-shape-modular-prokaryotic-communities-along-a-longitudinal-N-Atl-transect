@@ -1,0 +1,26 @@
+
+Partition of variance in RDA 
+
+Call: vegan::varpart(Y = module_hel, X = env_df, space_df)
+
+Explanatory tables:
+X1:  env_df
+X2:  space_df 
+
+No. of explanatory tables: 2 
+Total variation (SS): 1.6024 
+            Variance: 0.11445 
+No. of observations: 15 
+
+Partition table:
+                     Df R.squared Adj.R.squared Testable
+[a+c] = X1            3   0.74593       0.67664     TRUE
+[b+c] = X2            2   0.79703       0.76320     TRUE
+[a+b+c] = X1+X2       5   0.86903       0.79627     TRUE
+Individual fractions                                    
+[a] = X1|X2           3                 0.03307     TRUE
+[b] = X2|X1           2                 0.11963     TRUE
+[c]                   0                 0.64357    FALSE
+[d] = Residuals                         0.20373    FALSE
+---
+Use function ‘rda’ to test significance of fractions of interest

@@ -1,0 +1,19 @@
+Permutation test for capscale under reduced model
+Terms added sequentially (first to last)
+Permutation: free
+Number of permutations: 999
+
+Model: vegan::capscale(formula = comm_hel ~ sst_degC + oxygen_mmol_m3 + nitrate_mmol_m3 + phosphate_mmol_m3 + silicate_mmol_m3 + salinity_psu + chlorophyll_mg_m3 + longitude + latitude, data = env, distance = "euclidean")
+                  Df SumOfSqs       F Pr(>F)    
+sst_degC           1  1.09470 61.3143  0.001 ***
+oxygen_mmol_m3     1  0.06286  3.5206  0.068 .  
+nitrate_mmol_m3    1  0.00558  0.3127  0.731    
+phosphate_mmol_m3  1  0.03981  2.2297  0.157    
+silicate_mmol_m3   1  0.13092  7.3328  0.014 *  
+salinity_psu       1  0.08535  4.7807  0.034 *  
+chlorophyll_mg_m3  1  0.03329  1.8644  0.178    
+longitude          1  0.05676  3.1793  0.101    
+latitude           1  0.00382  0.2141  0.791    
+Residual           5  0.08927                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

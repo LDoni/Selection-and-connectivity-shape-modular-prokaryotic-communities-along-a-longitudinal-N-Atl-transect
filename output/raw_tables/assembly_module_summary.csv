@@ -1,0 +1,4 @@
+"Mechanism","n_pairs","mean_module_similarity","median_module_similarity","mean_temp_diff"
+"Dispersal Limitation",15,0.419367749667376,0.430797628572523,6.24335458874702
+"Drift",4,0.77871750487514,0.795525958893824,1.96661274880171
+"Homogeneous Selection",86,0.685446213396,0.701436527513213,2.44442188843738

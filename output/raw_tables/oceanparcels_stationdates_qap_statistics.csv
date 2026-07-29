@@ -1,0 +1,4 @@
+test,observed_r,qap_p_two_sided
+module_similarity_vs_min_travel_days,-0.6003700277520814,8e-4
+module_similarity_vs_connectivity_mean,0.4122586380803825,4e-4
+bray_similarity_vs_min_travel_days,-0.5535383903792784,9e-4

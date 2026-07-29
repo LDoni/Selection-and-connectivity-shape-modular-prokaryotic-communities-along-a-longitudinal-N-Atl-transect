@@ -1,0 +1,4 @@
+"Analysis","Statistic","Estimate","P_value","Extra"
+"Alpha diversity vs longitude (linear model)",-1.13595522815458,-0.762594620069696,0.27648379577994,"R2=0.09"
+"Alpha diversity vs longitude (Spearman)",639.070630322557,-0.141197554147423,0.615709131134363,"n=15"
+"Alpha diversity across zones (Kruskal-Wallis)",5.62525342874179,NA,0.0600470585879608,"df=2"

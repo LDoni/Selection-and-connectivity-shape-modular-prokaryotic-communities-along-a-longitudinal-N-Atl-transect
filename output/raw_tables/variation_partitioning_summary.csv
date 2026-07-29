@@ -1,0 +1,7 @@
+Response,Fraction,Adj_R2
+Community,Environment+Space,0.3127454925553159
+Community,Environment|Space,0.04787590328625291
+Community,Space|Environment,0.05735711198421567
+Main modules,Environment+Space,0.7572301372273819
+Main modules,Environment|Space,-0.00596926132992881
+Main modules,Space|Environment,0.05917714102431071

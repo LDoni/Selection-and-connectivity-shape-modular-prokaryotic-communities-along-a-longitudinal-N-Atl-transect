@@ -1,0 +1,2 @@
+test,n_modules,n_families,n_asvs,statistic,df,p_value,cramer_v,n_permutations
+module_by_family_chi_square_monte_carlo,4,84,456,381.66711433437234,NA,1e-4,0.528201125147417,9999

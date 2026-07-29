@@ -1,0 +1,14 @@
+Permutation test for capscale under reduced model
+Forward tests for axes
+Permutation: free
+Number of permutations: 999
+
+Model: vegan::capscale(formula = comm_hel ~ sst_degC + oxygen_mmol_m3 + nitrate_mmol_m3 + phosphate_mmol_m3 + silicate_mmol_m3 + salinity_psu + chlorophyll_mg_m3 + longitude + latitude, data = env, distance = "euclidean")
+         Df SumOfSqs       F Pr(>F)   
+CAP1      1  1.19932 67.1744  0.002 **
+CAP2      1  0.27965 34.4589  0.002 **
+CAP3      1  0.02859  3.8425  0.105   
+CAP4      1  0.00554  0.8061  0.373   
+Residual 10  0.08927                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

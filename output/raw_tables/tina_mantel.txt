@@ -1,0 +1,15 @@
+
+Mantel statistic based on Pearson's product-moment correlation 
+
+Call:
+vegan::mantel(xdis = tina_dist, ydis = as.dist(geo), permutations = 9999) 
+
+Mantel statistic r: 0.7035 
+      Significance: 1e-04 
+
+Upper quantiles of permutations (null model):
+  90%   95% 97.5%   99% 
+0.130 0.180 0.227 0.291 
+Permutation: free
+Number of permutations: 9999
+

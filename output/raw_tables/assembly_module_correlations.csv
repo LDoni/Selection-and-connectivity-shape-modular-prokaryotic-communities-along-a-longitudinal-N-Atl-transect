@@ -1,0 +1,5 @@
+"metric","estimate","p_value","test"
+"module_similarity_vs_bNTI",-0.489477503628447,0.0003,"Mantel Spearman, 9999 permutations"
+"module_similarity_vs_RC_BC",-0.810118175842553,0.0001,"Mantel Spearman, 9999 permutations"
+"module_similarity_vs_temp_diff",-0.805815882230976,0.0001,"Mantel Spearman, 9999 permutations"
+"module_similarity_vs_lon_diff",-0.811486626580966,0.0001,"Mantel Spearman, 9999 permutations"

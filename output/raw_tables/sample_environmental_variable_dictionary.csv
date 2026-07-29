@@ -1,0 +1,11 @@
+column,description,units
+thetao_degC,Potential/surface seawater temperature extracted from Copernicus Marine data at the sampling coordinates and date,degree C
+so_psu,Sea water salinity extracted from Copernicus Marine data,practical salinity units
+uo_m_s,Eastward sea water velocity,m s-1
+vo_m_s,Northward sea water velocity,m s-1
+zos_m,Sea surface height above geoid,m
+chl_mg_m3,Chlorophyll-a concentration,mg m-3
+o2_mmol_m3,Dissolved oxygen,mmol m-3
+no3_mmol_m3,Nitrate,mmol m-3
+po4_mmol_m3,Phosphate,mmol m-3
+si_mmol_m3,Silicate,mmol m-3

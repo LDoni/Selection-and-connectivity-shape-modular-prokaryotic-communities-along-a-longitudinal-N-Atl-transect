@@ -9,12 +9,21 @@ library(geosphere)
 library(scales)
 library(metagenomeSeq)
 
+midpoint_root_ps <- function(ps) {
+  tr <- phy_tree(ps)
+  if (!ape::is.rooted(tr)) {
+    phy_tree(ps) <- phangorn::midpoint(tr)
+  }
+  ps
+}
+
 zone_cols <- c(ANW = "#4280fc", ANC = "#ffb452", ANE = "#f7170a")
 
 prepare_atlantic_ps <- function(ps) {
   otu <- as(otu_table(ps), "matrix")
   if (!taxa_are_rows(ps)) otu_table(ps) <- otu_table(t(otu), taxa_are_rows = TRUE)
   sample_data(ps)$oceanic_sector <- factor(as.character(sample_data(ps)$oceanic_sector), levels = names(zone_cols))
+  midpoint_root_ps(ps)
   ps
 }
 
